@@ -27,10 +27,11 @@ The model was rigorously evaluated against a heavily class-imbalanced dataset of
 
 ## 🚀 System Execution Guide
 
-**IMPORTANT NOTE FOR EVALUATORS:** While the source code is available in this repository, the Vanguard CNN Engine utilizes a dynamic cloud architecture. To avoid local hardware constraints, bypass dependency issues, and perfectly replicate the autonomous Firebase routing described in the thesis, **please execute the backend via the provided Google Colab environment.**
+**IMPORTANT NOTE FOR EVALUATORS:** While the source code is available in this repository, the Vanguard CNN Engine utilizes a dynamic cloud architecture. To avoid local hardware constraints, bypass dependency issues, and perfectly replicate the autonomous Firebase routing described in the thesis, **please execute the backend via the provided Google Colab environment. 
+Note: Google Colab requires users to be logged into a standard Google/Gmail account to allocate cloud computing resources. If you are browsing in Incognito mode, please sign in to execute the cells.**
 
 ### Phase 1: Booting the AI Backend
-1. Open the interactive cloud notebook: **[INSERT YOUR GOOGLE COLAB LINK HERE]**
+1. Open the interactive cloud notebook: **[https://colab.research.google.com/drive/1nO_x_Q09qX0lXbBSpT9DOhctKIVXziTE?usp=sharing]**
 2. Ensure you are connected to a cloud runtime (`Runtime > Run all`).
 3. *Note: The first cell will automatically fetch the `spam.csv` dataset directly from this GitHub repository. No manual uploads are required.*
 4. The final cell will boot the FastAPI server and output a public Localtunnel URL. The Python script will autonomously push this new URL to the Firebase Realtime Database. The AI backend is now live.
