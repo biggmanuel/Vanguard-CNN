@@ -37,7 +37,7 @@ Note: Google Colab requires users to be logged into a standard Google/Gmail acco
 4. The final cell will boot the FastAPI server and output a public Localtunnel URL. The Python script will autonomously push this new URL to the Firebase Realtime Database. The AI backend is now live.
 
 ### Phase 2: Accessing the User Interface
-1. With the Colab backend actively running, open the live enterprise dashboard: **[https://socialengineeringcnn.netlify.app/cnnengine]**
+1. With the Colab backend actively running, open the live enterprise dashboard: **[https://socialengineeringcnn.netlify.app/]**
 2. *Note: No manual configuration is needed. The frontend will dynamically query Firebase, locate the active AI endpoint, and establish a secure connection.*
 
 ### Phase 3: Testing Threat Detection
